@@ -2,14 +2,14 @@
 Este proyecto muestra cómo usar Docker Compose para orquestar una API en Flask con una base de datos PostgreSQL
 
 
-#Requisitos Previos
+# Requisitos Previos
 
 Antes de ejecutar el proyecto, se requiere de tener instalados:
 
 Docker
 Docker Compose
 
-#Instalación y Ejecución
+# Instalación y Ejecución
 
 1. Clonar el repositorio
 
@@ -28,7 +28,7 @@ docker ps
 
 Debe mostrar dos contenedores en ejecución: backend (Flask API) y db (PostgreSQL).
 
-#Uso de la API
+# Uso de la API
 
 Obtener todos los estudiantes
 
@@ -71,7 +71,7 @@ Para eliminar la base de datos completamente, ejecuta:
 
 docker volume rm docker_compose_sql_db_data
 
-#Notas
+# Notas
 
 Asegúrarse de que el puerto 5000 no esté ocupado en la máquina.
 Se puede modificar la configuración de la base de datos en docker-compose.yml.
